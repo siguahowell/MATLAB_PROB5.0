@@ -1,6 +1,7 @@
 function prob5()
 %----test if x=sin((3*pi.*n)/100);----%
 x=input('what is x?');
+x=sin((3*pi.*n)/100);
 n=0:1:199;
 for i=0:199
     if i==0
