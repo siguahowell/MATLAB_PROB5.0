@@ -1,0 +1,16 @@
+function prob5()
+%----test if x=sin((3*pi.*n)/100);----%
+x=input('what is x?');
+n=0:1:199;
+for i=0:199
+    if i==0
+       y(i+1) = -1.5*x(i+1) + 2*x(i+2) - 0.5*x(i+3);
+    elseif i>0 && i<=198
+       y(i+1) = 0.5*x(i+2) - 0.5*x(i);
+     else
+       y(i+1) = 1.5*x(i+1) - 2*x(i) + 0.5*x(i-1);
+    end
+end
+    plot(n,y);hold on;
+    hold on;plot(n,x)
+end
