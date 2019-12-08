@@ -2,7 +2,7 @@ function prob5()
 n=0:1:199;
 %disp('Assuming the program is already testing the given x(n) ')%
 %-----REMOVE PERCENTAGE TO TEST----%
-x=input('input a value of x(n)): ');
+x=input('input a function of x(n)): ');
 %x=sin((3*pi.*n)/100);%
 y=zeros(0,200);
 for i=0:199
@@ -20,6 +20,3 @@ end
 
                 
        
-
-    
-
